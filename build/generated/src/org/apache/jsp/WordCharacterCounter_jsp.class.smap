@@ -1,0 +1,14 @@
+SMAP
+WordCharacterCounter_jsp.java
+JSP
+*S JSP
+*F
++ 0 WordCharacterCounter.jsp
+WordCharacterCounter.jsp
+*L
+1:44
+3,6:46
+8,34:52
+42:86,3
+43,117:89
+*E

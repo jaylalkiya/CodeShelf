@@ -1,0 +1,14 @@
+SMAP
+typingtest_jsp.java
+JSP
+*S JSP
+*F
++ 0 typingtest.jsp
+typingtest.jsp
+*L
+1:44
+3,6:46
+8,120:52
+128:172,3
+129,212:175
+*E
