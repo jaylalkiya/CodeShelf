@@ -12,10 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word and Character Counter - CodeShelf</title>
-    <link rel="icon" href='data:image/svg+xml;utf8,
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="blue" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
-              </svg>'>
+   <link rel="shortcut icon" type="image/png" href="images/logo_circle.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -39,7 +36,15 @@
                 <svg class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
-                <a href="#" class="text-2xl font-bold text-gray-900">Word Counter</a>
+                <a href="#" class="text-2xl font-bold">
+  <span style="background: linear-gradient(to right, #7c3aed, #ec4899, #06b6d4);
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;
+               display: inline-block;">
+    Word Counter
+  </span>
+</a>
+
             </div>
             <div class="flex items-center space-x-4">
                 <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-3 py-1 rounded-full hidden sm:inline-block">

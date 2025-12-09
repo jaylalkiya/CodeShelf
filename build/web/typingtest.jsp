@@ -12,10 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typing Test - CodeShelf</title>
-    <link rel="icon" href='data:image/svg+xml;utf8,
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="blue" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
-              </svg>'>
+    <link rel="shortcut icon" type="image/png" href="images/logo_circle.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -123,10 +120,16 @@
 <body>
     <!-- Updated Header -->
     <div class="top-bar">
-        <a href="#" class="logo-title">
-            <i class="fas fa-keyboard"></i>
-            CodeShelf Typing Test
-        </a>
+        <h3 class="text-2xl font-bold">
+    <i class="fas fa-keyboard text-blue-400"></i>
+    <span style="background: linear-gradient(to right, #7c3aed, #ec4899, #06b6d4); 
+                 -webkit-background-clip: text; 
+                 -webkit-text-fill-color: transparent; 
+                 display: inline-block;">
+        CodeShelf Typing Test
+    </span>
+</h3>
+
         <div class="welcome-text">
             <span>Welcome, </span>
             <span class="fw-bold text-primary"><%= fullname %></span>
@@ -134,6 +137,7 @@
         <a href="index.jsp" class="btn btn-primary btn-sm">
             <i class="fas fa-sign-in-alt"></i> Dashboard 
         </a>
+        
     </div>
 
     <div class="container">

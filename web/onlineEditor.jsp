@@ -11,10 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Online C Compiler - CodeShelf</title>
-    <link rel="icon" href='data:image/svg+xml;utf8,
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="blue" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
-              </svg>'>
+    <link rel="shortcut icon" type="image/png" href="images/logo_circle.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -125,7 +122,15 @@
 </head>
 <body>
 <header>
-    <h1>💻 Online C Compiler - CodeShelf</h1>
+    <h1 class="text-2xl font-bold">
+    💻 <span style="background: linear-gradient(to right, #7c3aed, #ec4899, #06b6d4); 
+                    -webkit-background-clip: text; 
+                    -webkit-text-fill-color: transparent; 
+                    display: inline-block;">
+        Online C Compiler - CodeShelf
+    </span>
+</h1>
+
     <div class="user-info">
         <span class="welcome-message">Welcome, <%= fullname %></span>
         <a href="index.jsp" class="btn">🏠 Dashboard</a>

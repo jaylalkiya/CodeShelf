@@ -14,10 +14,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🌍 IP Address Tracker | CodeShelf</title>
-    <link rel="icon" href='data:image/svg+xml;utf8,
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="blue" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
-              </svg>'>
+    <link rel="shortcut icon" type="image/png" href="images/logo_circle.png">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -36,7 +33,15 @@
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path>
                 </svg>
-                <a href="#" class="text-3xl font-bold text-gray-800 tracking-wide">IP Tracker</a>
+                <a href="#" class="text-3xl font-bold tracking-wide">
+  <span style="background: linear-gradient(to right, #7c3aed, #ec4899, #06b6d4);
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;
+               display: inline-block;">
+    IP Tracker
+  </span>
+</a>
+
             </div>
             <!-- Navigation and User Info -->
             <div class="flex items-center space-x-5">

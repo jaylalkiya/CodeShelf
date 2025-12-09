@@ -14,10 +14,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeShelf - Advanced Calculator</title>
-    <link rel="icon" href='data:image/svg+xml;utf8,
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="blue" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
-              </svg>'>
+    <link rel="shortcut icon" type="image/png" href="images/logo_circle.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
@@ -151,7 +148,12 @@
 <body class="bg-gray-100 dark:bg-gray-900 flex flex-col min-h-screen transition-colors duration-300">
 
     <header class="bg-white dark:bg-gray-800 shadow-sm py-4 px-6 flex justify-between items-center transition-colors duration-300">
-        <h1 class="text-2xl font-bold text-gray-900 dark:text-gray-100">🔢 CodeShelf - Calculator</h1>
+        <h1 class="text-2xl font-bold">
+    🔢 <span class="bg-gradient-to-r from-purple-600 via-pink-500 to-cyan-400 bg-clip-text text-transparent">
+        CodeShelf - Calculator
+    </span>
+</h1>
+
         <div class="user-info flex items-center space-x-4">
             <span class="text-gray-600 dark:text-gray-400 font-semibold hidden sm:inline">Welcome, <%= fullname %></span>
             <button id="darkModeToggle" class="p-2 rounded-full text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-200">

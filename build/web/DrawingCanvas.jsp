@@ -15,10 +15,7 @@
     <meta name="keywords" content="drawing canvas, CodeShelf, sketch tool, digital art">
     <meta name="author" content="CodeShelf Team">
     <title>CodeShelf - Advanced Drawing Canvas</title>
-    <link rel="icon" href='data:image/svg+xml;utf8,
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="blue" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
-              </svg>'>
+    <link rel="shortcut icon" type="image/png" href="images/logo_circle.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -93,17 +90,21 @@
     <header class="bg-white shadow-sm sticky top-0 z-50 dark:bg-gray-800">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
             <div class="flex items-center space-x-2">
-                <i class="fas fa-paint-brush h-8 w-8 text-blue-600"></i>
-                <a href="index.jsp" class="text-2xl font-bold text-gray-900 dark:text-gray-200">Drawing Canvas</a>
-            </div>
+    <i class="fas fa-paint-brush h-8 w-8 text-blue-600"></i>
+    <a href="index.jsp" class="text-2xl font-bold">
+        <span class="bg-gradient-to-r from-purple-600 via-pink-500 to-cyan-400 bg-clip-text text-transparent">
+            Drawing Canvas
+        </span>
+    </a>
+</div>
+
             <div class="flex items-center space-x-4">
                 <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-3 py-1 rounded-full hidden sm:inline-block dark:bg-blue-900 dark:text-blue-300">
                     Welcome, <%= fullname %>
                 </span>
-                <a href="index.jsp" class="nav-link text-white bg-blue-500 px-4 py-2 rounded-md hover:bg-blue-600 transition duration-200 shadow" aria-label="Back to Dashboard">
-                    <i class="fas fa-home h-5 w-5 inline-block"></i>
-                    <span class="ml-1 hidden md:inline">Dashboard</span>
-                </a>
+                <a href="index.jsp" class="btn bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition-colors duration-200">
+                🏠 Dashboard
+            </a>
             </div>
         </nav>
     </header>
